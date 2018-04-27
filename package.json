@@ -1,6 +1,6 @@
 {
-  "name": "@sorceror/crypto-prices",
-  "version": "1.0.0",
+  "name": "@bthesorceror/crypto-prices",
+  "version": "1.0.3",
   "description": "crypto-prices",
   "license": "MIT",
   "repository": "",
@@ -8,9 +8,10 @@
     "name": "Brandon Farmer",
     "email": "bthesorceror@gmail.com"
   },
-  "files": ["lib"],
+  "main": "bin",
+  "files": ["lib", "bin"],
   "bin": {
-    "crypto-prices": "./bin/index.js"
+    "crypto-prices": "bin/index.js"
   },
   "scripts": {
     "clean": "rimraf lib && rimraf coverage",

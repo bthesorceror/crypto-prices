@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { Monitor } = require("../lib/monitor");
 const program = require("commander");
 
